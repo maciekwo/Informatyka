@@ -90,7 +90,7 @@ int main(int argc, char** argv)
         Color color = Color{ 1,2,3,4 };
         vector<Shape*> items;
        
-        Triangle* tri = new Triangle("Triangle", 300, 350, 200, 150, Color{ 122,40,92,255 });
+        Triangle* tri = new Triangle("Triangle", 300, 350, 200, 150, Color{ 37,112,205,255 });
 
         items.push_back(tri);
 
